@@ -20,4 +20,4 @@ COPY --from=build-env /go/src/github.com/fairwindsops/goldilocks /
 
 WORKDIR /opt/app
 
-CMD ["/goldilocks dashboard"]
+CMD ["/goldilocks" dashboard]
